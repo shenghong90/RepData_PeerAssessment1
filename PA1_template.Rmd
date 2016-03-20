@@ -6,12 +6,12 @@ output:
 ---
 
 
-#For this assignment, I will
-#1. Read the data set into an appropriate format
-#2. Display a histogram of total steps per day, and calculate the mean and median number of steps taken each day.
-#3. Make a “time series” plot showing average steps taken during each 5-minute interval, and discuss what this plot shows.
-#4. I’m going to discuss the presence of missing values, devise a strategy to keep them from affecting my results, and create a new dataset with the missing value filled in. Then I’ll make a new histogram and discuss the difference between this data set and that I used for the analysis in Step 3.
-#5. Look for pattern differences in weekends vs weekdays.
+##For this assignment, I will
+##1. Read the data set into an appropriate format
+##2. Display a histogram of total steps per day, and calculate the mean and median number of steps taken each day.
+##3. Make a “time series” plot showing average steps taken during each 5-minute interval, and discuss what this plot shows.
+##4. I’m going to discuss the presence of missing values, devise a strategy to keep them from affecting my results, and create a new dataset with the missing value filled in. Then I’ll make a new histogram and discuss the difference between this data set and that I used for the analysis in Step 3.
+##5. Look for pattern differences in weekends vs weekdays.
 
 
 ##Loading and preprocessing the data
