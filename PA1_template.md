@@ -20,7 +20,7 @@ total.steps <- tapply(data$steps, data$date, FUN=sum, na.rm=TRUE)
 qplot(total.steps, binwidth = 1000, xlab = "total number of steps taken each day")
 ```
 
-![](PA1_template2_files/figure-markdown_github/steps2-1.png)<!-- -->
+![](PA1_template_files/figure-markdown_github/steps2-1.png)<!-- -->
 
 ``` r
 mean(total.steps, na.rm=TRUE)
@@ -43,7 +43,7 @@ averages <- aggregate(x=list(steps=data$steps), by=list(interval=data$interval),
 ggplot(data=averages, aes(x=interval, y=steps)) + geom_line() + xlab("5-minute interval") + ylab("average number of steps taken")
 ```
 
-![](PA1_template2_files/figure-markdown_github/steps3-1.png)<!-- -->
+![](PA1_template_files/figure-markdown_github/steps3-1.png)<!-- -->
 
 On average across all the days in the dataset, the 5-minute interval contains the maximum number of steps?
 
@@ -90,7 +90,7 @@ total.steps <- tapply(filled.data$steps, filled.data$date, FUN=sum)
 qplot(total.steps, binwidth=1000, xlab="total number of steps taken each day")
 ```
 
-![](PA1_template2_files/figure-markdown_github/steps7-1.png)<!-- -->
+![](PA1_template_files/figure-markdown_github/steps7-1.png)<!-- -->
 
 ``` r
 mean(total.steps)
@@ -129,4 +129,4 @@ averages <- aggregate(steps ~ interval + day, data = filled.data, mean)
 ggplot(averages, aes(interval, steps)) + geom_line() + facet_grid(day ~ .) + xlab("5-minute interval") + ylab("Number of steps")
 ```
 
-![](PA1_template2_files/figure-markdown_github/steps9-1.png)<!-- -->
+![](PA1_template_files/figure-markdown_github/steps9-1.png)<!-- -->
