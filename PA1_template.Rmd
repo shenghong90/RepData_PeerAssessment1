@@ -1,11 +1,3 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
-
-
 ##For this assignment, I will
 ##1. Read the data set into an appropriate format
 ##2. Display a histogram of total steps per day, and calculate the mean and median number of steps taken each day.
